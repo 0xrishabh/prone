@@ -35,7 +35,7 @@ def solve(puzzle,solution):
 	#print("success")
 
 
-filename = "/home/cypher/Desktop/projects/chessPuzzle/puzzle.txt"
+filename = "####/puzzle.txt"
 lines = open(filename).readlines()[:10]
 total_puzzle = len(lines)
 puzzle_solved = 0
